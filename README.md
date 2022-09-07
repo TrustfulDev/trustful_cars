@@ -1,5 +1,6 @@
 ### Trustful Cars
 - Tailwind + React
+- Hosted on Fleek (images will load slow causing content resizing)
 
 ## Learning Objectives
 - Understand tailwind
