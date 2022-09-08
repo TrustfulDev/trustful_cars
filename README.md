@@ -1,5 +1,6 @@
 ### Trustful Cars
 - Tailwind + React
+- Hosted on Fleek (images will load slow causing content resizing)
 
 ## Learning Objectives
 - Understand tailwind
@@ -9,6 +10,7 @@
 ## Notes
 - Could use a more unique design. (Simple for the sake of learning tailwind)
 - Could've spent a bit more time adding features, but FALL 2022 semester is kicking in
+- Icon needs a repaint
 - Need all photos to match in size or else stretching will occur on CarDetail screen (Photoshop?)
 - Could use way more photos/cars (database?)
 
