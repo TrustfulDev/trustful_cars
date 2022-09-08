@@ -8,6 +8,7 @@
 - File/Folder Structure
 
 ## Notes
+- IOS seems to stretch the image (unsure about fix, works fine on pc)
 - Could use a more unique design. (Simple for the sake of learning tailwind)
 - Could've spent a bit more time adding features, but FALL 2022 semester is kicking in
 - Icon needs a repaint
