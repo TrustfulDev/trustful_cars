@@ -28,14 +28,14 @@ const CarDetail = () => {
     }
 
     return (
-        <section className='mb-5'>
-            <div className='flex gap-x-5 flex-col lg:flex-row px-5'>
-                <img className='max-w-[750px] max-h-[502px] rounded-lg border-b-2 border-green-500' src={car.image} alt={car.name} />
+        <section className='mb-5 overflow-x-hidden'>
+            <div className='flex gap-x-5 flex-col lg:flex-row px-5 overflow-hidden'>
+                <img className='max-w-[750px] max-h-[502px] w-auto h-auto rounded-lg border-b-2 border-green-500 sm:h-fit' src={car.image} alt={car.name} />
                 <div className='pt-5'>
                     <p>{car.year}</p>
                     <h1 className='text-4xl text-shadow'>{car.name}</h1>
                     
-                    <div className='flex gap-x-5 items-center mb-10'>
+                    <div className='flex gap-x-5 items-center mb-5 xl:mb-10'>
                         <div className='flex gap-x-2 justify-center items-center text-neutral-300 text-shadow'>
                             <p><GiCarDoor /></p>
                             <p>{car.doors}</p>
@@ -54,7 +54,7 @@ const CarDetail = () => {
 
                     <p className='text-shadow'>{car.description}</p>
 
-                    <p className='flex items-end h-[100px] lg:h-[200px] text-4xl text-green-500 font-bold text-shadow'>${car.price}</p>
+                    <p className='flex items-end h-[100px] xl:h-[200px] text-4xl text-green-500 font-bold text-shadow'>${car.price}</p>
                 </div>
             </div>
         </section>
